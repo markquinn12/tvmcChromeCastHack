@@ -1,0 +1,115 @@
+<playercorefactory>
+<players>
+<player name="MXPlayerFree" type="ExternalPlayer" audio="false" video="true">
+<filename>com.mxtech.videoplayer.ad</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="MXPlayerPro" type="ExternalPlayer" audio="false" video="true">
+<filename>com.mxtech.videoplayer.pro</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="TPlayer" type="ExternalPlayer" audio="false" video="true">
+<filename>com.tiantian.android.player.app</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="DicePlayerFree" type="ExternalPlayer" audio="false" video="true">
+<filename>com.inisoft.mediaplayer.trial</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="VLCPlayer" type="ExternalPlayer" audio="false" video="true">
+<filename>com.vlcforandroid.vlcdirectprofree</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="DicePlayerPaid" type="ExternalPlayer" audio="false" video="true">
+<filename>com.inisoft.mediaplayer.a</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="RockPlayerLite" type="ExternalPlayer" audio="false" video="true">
+<filename>com.redirectin.rockplayer.android.unified.lite</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="RockPlayer" type="ExternalPlayer" audio="false" video="true">
+<filename>com.rockplayer</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="BSPlayerFree" type="ExternalPlayer" audio="false" video="true">
+<filename>com.bsplayer.bspandroid.free</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="MoboplayerFree" type="ExternalPlayer" audio="false" video="true">
+<filename>com.clov4r.android.nilz</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="mVideoplayerFree" type="ExternalPlayer" audio="false" video="true">
+<filename>afzkl.development.mVideoPlayer</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player> 
+
+<player name="Vplayer" type="ExternalPlayer" audio="false" video="true">
+<filename>me.abitno.vplayer.t</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="WondersharePlayer" type="ExternalPlayer" audio="false" video="true">
+<filename>com.wondershare.player</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="ArchosVideo" type="ExternalPlayer" audio="false" video="true">
+<filename>com.archos.mediacenter.video</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="SopCast" type="ExternalPlayer" audio="false" video="true">
+<filename>org.sopcast.android</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+ <player name="Allcast" type="ExternalPlayer" audio="false" video="true"> <filename>com.koushikdutta.cast</filename> <hidexbmc>true</hidexbmc> <playcountminimumtime>120</playcountminimumtime> </player> 
+
+<player name="DaroonPlayer" type="ExternalPlayer" audio="false" video="true">
+<filename>com.daroonplayer.dsplayer</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+</players>
+<rules action="prepend">
+<!---
+********** **********
+********** EDIT THIS SECTION **********
+********** **********
+-->
+<rule protocols="smb" player="Allcast" />
+<rule dvdimage="true" player="Allcast"/>
+<rule protocols="rtmp" player="Allcast"/>
+<rule protocols="rtsp" player="Allcast" />
+<rule protocols="sop" player="Allcast" />
+<rule internetstream="true" player="Allcast" />
+<rule video="true" player="Allcast"/> <!-- Default for anything else not listed -->
+</rules>
+</playercorefactory>
