@@ -9,15 +9,18 @@ I initially downloaded Kodi but felt overwhelmed at the amount of reading/search
 ##Casting from android mobile/tablet to chromecast
 There doesn't seem to be a built in way to cast from TVMC to a chromecast but there is a hack!
 
-1. Download a casting app for your device. I use [AllCast](https://play.google.com/store/apps/details?id=com.koushikdutta.cast&hl=en)
+####Step 1. 
+Download a casting app for your device. I use [AllCast](https://play.google.com/store/apps/details?id=com.koushikdutta.cast&hl=en)
 
 You could us a different casting application such as [LocalCast](https://play.google.com/store/apps/details?id=de.stefanpledl.localcast&hl=en)
 
-2. Download the "playercorefactory.xml" file which is part of this repository. 
+####Step 2. 
+Download the "playercorefactory.xml" file which is part of this repository. 
 
 This file is already set up to cast using the AllCast app. If you want to change it to a different app for casting, just edit the bottom part of the file. You will need to substitute the "Allcast" key with the name of the casting app which you want to use.
 
-3. You will need to find the TVMC installation directory on your device. We will copy the file above to a certain directory. On my Samsung S5 the directory we need can be found at:
+####Step 3. 
+You will need to find the TVMC installation directory on your device. We will copy the file above to a certain directory. On my Samsung S5 the directory we need can be found at:
 
 /sdcard/Android/data/ag.tvaddons.tvmc/files/.xbmc/userdata/
 
@@ -26,9 +29,11 @@ Copy the "playercorefactory.xml" file to the directory above.
 I use an app for directory navigation and for copying files:
 [ES File Explorer](https://play.google.com/store/apps/details?id=com.estrongs.android.pop&hl=en)
 
-4. Restart your TVMC app. 
+####Step 4. 
+Restart your TVMC app. 
 
-5. Select content to stream, choose AllCast when prompted to choose a player, select your chromecast and sit back and relax!
+####Step 5. 
+Select content to stream, choose AllCast when prompted to choose a player, select your chromecast and sit back and relax!
 
 ###Tips and tricks
 If the playercorefactory.xml file exists in the directory above, everytime you attempt to stream content, the AllCast app will be opened. If you want to view the content on your device only you will need to remove the playercorefactory.xml file from the above directory.
