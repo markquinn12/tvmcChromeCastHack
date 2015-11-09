@@ -29,6 +29,8 @@ Copy the [playercorefactory.xml](playercorefactory.xml) file to the directory ab
 I use an app for directory navigation and for copying files:
 [ES File Explorer](https://play.google.com/store/apps/details?id=com.estrongs.android.pop&hl=en)
 
+Note: When using a file explorer app the above directory includes the hidden directory ".xbmc". Some file explorer apps will not show this directory by default. [ES File Explorer](https://play.google.com/store/apps/details?id=com.estrongs.android.pop&hl=en) has a "show hidden files" button which shows hidden files! You will need to turn this on in order to find the correct directory.
+
 ####Step 4. 
 Restart your TVMC app. 
 
