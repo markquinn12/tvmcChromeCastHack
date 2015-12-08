@@ -29,6 +29,8 @@ Copy the [playercorefactory.xml](playercorefactory.xml) file to the directory ab
 I use an app for directory navigation and for copying files:
 [ES File Explorer](https://play.google.com/store/apps/details?id=com.estrongs.android.pop&hl=en)
 
+Note: When using a file explorer app the above directory includes the hidden directory ".xbmc". Some file explorer apps will not show this directory by default. [ES File Explorer](https://play.google.com/store/apps/details?id=com.estrongs.android.pop&hl=en) has a "show hidden files" button which shows hidden files! You will need to turn this on in order to find the correct directory.
+
 ####Step 4. 
 Restart your TVMC app. 
 
@@ -41,6 +43,6 @@ If the playercorefactory.xml file exists in the directory above, everytime you a
 What I do is store the [playercorefactory.xml](playercorefactory.xml) file in the directory below the /userdata directory. So I store it in here: 
 /sdcard/Android/data/ag.tvaddons.tvmc/files/.xbmc/
 
-If I want to watch content on my device I delete the playercorefactory.xml from the /userdata directory. If I want to use AllCast I simply copy the playercorefactory.xml file back into the /userdata directory.
+If I want to watch content on my device I rename the "playercorefactory.xml" file in the "userdata" directory. I usually just add a letter to the ".xml" part to be "playercorefactory.xmlt". If I want to use AllCast for streaming I rename the file to be "playercorefactory.xml" again.
 
-I plan on writing a simple android app for this at some stage but using ES file explorer works ok for now
+I plan on writing a simple android app for this at some stage but using ES file explorer works ok for now.
