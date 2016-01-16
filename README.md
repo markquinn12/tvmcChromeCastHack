@@ -40,9 +40,6 @@ Select content to stream, choose AllCast when prompted to choose a player, selec
 ###Tips and tricks
 If the playercorefactory.xml file exists in the directory above, everytime you attempt to stream content, the AllCast app will be opened. If you want to view the content on your device only you will need to remove the playercorefactory.xml file from the above directory.
 
-What I do is store the [playercorefactory.xml](playercorefactory.xml) file in the directory below the /userdata directory. So I store it in here: 
-/sdcard/Android/data/ag.tvaddons.tvmc/files/.xbmc/
-
-If I want to watch content on my device I rename the "playercorefactory.xml" file in the "userdata" directory. I usually just add a letter to the ".xml" part to be "playercorefactory.xmlt". If I want to use AllCast for streaming I rename the file to be "playercorefactory.xml" again.
+If I want to watch content on my device I rename the [playercorefactory.xml](playercorefactory.xml) file in the "userdata" directory and restart TVMC. I usually just add a letter to the ".xml" part to be "playercorefactory.xmlt". If I want to use AllCast for streaming again I rename the file to be "playercorefactory.xml" again.
 
 I plan on writing a simple android app for this at some stage but using ES file explorer works ok for now.
